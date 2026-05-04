@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url .",
     "lint": "eslint .",
     "preview": "vite preview"
   },
